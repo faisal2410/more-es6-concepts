@@ -24,7 +24,7 @@ class Instructor extends TeamMember{
 }
 
 class Developer extends TeamMember{
-    designation = 'Web Course Instructor'
+    designation = 'Web Course Developer'
     team = 'web team'
     tech;
     constructor(name, location, tech){
@@ -55,8 +55,8 @@ class JobPlacement extends TeamMember{
     }
 }
 
-const alia = new Developer('Alia Bhatt', 'Dhaka', 'React');
-console.log(alia);
-alia.provideFeedback();
+// const alia = new Developer('Alia Bhatt', 'Dhaka', 'React');
+// console.log(alia);
+// alia.provideFeedback();
 const bipasha = new JobPlacement('bipasha', 'kolkata', 'India');
 console.log(bipasha);
